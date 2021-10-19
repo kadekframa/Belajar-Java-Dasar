@@ -5,5 +5,6 @@ public class Tipe_Data_Number {
         int iniInt = 1000000000;
         System.out.println(iniByte);
         System.out.println("Ini adalah bilangan Integer :" + iniInt);
+        System.out.println("Tetap Semangat !!!");
     }
 }
