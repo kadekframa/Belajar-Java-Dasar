@@ -7,10 +7,10 @@ public class Expression_Statement_Block {
         // Exppression adalah core component dari statement.
 
         //Contoh Expression.
-        int value;
-        value = 10;
+        int value;      // expression
+        value = 10;     // expression
 
-        System.out.println(value = 100);
+        System.out.println(value = 100);    //statement.
 
 
 
