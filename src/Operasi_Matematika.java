@@ -12,5 +12,26 @@ public class Operasi_Matematika {
         System.out.println("a * b = " + a * b);
         System.out.println("a / b = " + a / b);
         System.out.println("a % b = " + a % b);
+
+
+
+        // Augmented assignments.
+        // Contoh penggunaan augmented assignments.
+        int aa = 10;
+
+        System.out.println("");
+        aa += 2;                // aa = aa + 2
+        System.out.println(aa);
+        aa -= 2;                // aa = aa -2
+        System.out.println(aa);
+        aa *= 2;                // aa = aa *2
+        System.out.println(aa);
+        aa /= 2;                // aa = aa / 2
+        System.out.println(aa);
+        aa %= 2;                // aa = aa % 2
+        System.out.println(aa);
+
+        System.out.println("");
+        System.out.println(a);
     }
 }
