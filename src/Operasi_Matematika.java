@@ -33,5 +33,20 @@ public class Operasi_Matematika {
 
         System.out.println("");
         System.out.println(a);
+
+
+
+        // Unary Operator. (++, --, -, +, !)
+        // Contoh penggunaan unary operator.
+        int abs = 14;
+        abs++;          // abs = abs + 1
+        System.out.println("Contoh penggunaan unary operator");
+        System.out.println(abs);
+
+        abs--;          // abs = abs - 1
+        System.out.println(abs);
+
+        System.out.println(!true);  // operator unary "!".  // !true = false
+
     }
 }
