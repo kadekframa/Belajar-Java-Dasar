@@ -1,4 +1,4 @@
-public class Operator_Boolean {
+public class Operasi_Boolean {
     public static void main(String[] args) {
         // Operasi Boolean di Java (&&, ||, !).
         // Operasi boolean adalah operasi yang digunakan untuk dua data boolean.
