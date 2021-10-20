@@ -24,6 +24,7 @@ public class Tipe_Data_Array {
         System.out.println(arrayString[0]);
 
 
+
         // Array Initializer. Ada beberapa cara untuk menginisialisasi kode array di Java.
         // Contoh 1.
         String[] arrayStringSepertiContohDiatas = new String[3];
@@ -47,7 +48,28 @@ public class Tipe_Data_Array {
         System.out.println("Mengubah data di array dapat menggunakan array[index] = value. " + arrayInt[0]);
         System.out.println("Panjang array: " + arrayInt.length);                                        // Mengambil panjang array.
 
-        // Di dalam Java, tidak ada istilah menghapus data array. Yang ada hanya mengubah isi dari value array.
+        // Di dalam Java, tidak ada istilah menghapus data array. Yang ada hanya mengubah isi dari value array. Apabila ingin mengahapus array,
+        //maka cara yang dapat dilakukan adalah dengan mengosongkan index array tersebut menggunakan null.
+
+
+
+        // Array di dalam array.
+        // Contoh penggunaan array di dalam array.
+        String[][] members ={
+                {"Kadek", "Frama", "Danamastyana"},
+                {"Budi", "Laksana"},
+                {"Joko", "Anwar"},
+        };
+
+
+        System.out.println("");
+        System.out.println("Array di dalam Array");
+
+        String[] member1 = members[0];          // memanggil array di dalam array
+        System.out.println(member1[0]);
+
+        System.out.println(members[0][1]);      // memanggil array di dalam array
+
 
     }
 }
