@@ -41,7 +41,13 @@ public class Tipe_Data_Array {
                 24, 34, 44, 54, 64, 74, 84, 94, 104
         };
 
-        System.out.println(arrayInt.length);
+        System.out.println("Mengambil data di array dapat menggunakan array[index]. " + arrayInt[0]);   // Mengambil data di array.
+
+        arrayInt[0] = 12;                                                                               // Mengubah data di array.
+        System.out.println("Mengubah data di array dapat menggunakan array[index] = value. " + arrayInt[0]);
+        System.out.println("Panjang array: " + arrayInt.length);                                        // Mengambil panjang array.
+
+        // Di dalam Java, tidak ada istilah menghapus data array. Yang ada hanya mengubah isi dari value array.
 
     }
 }
