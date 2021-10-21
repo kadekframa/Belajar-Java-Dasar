@@ -3,7 +3,7 @@ public class Switch_Statement {
         // Switch Statement
         // Kadang kita hanya butuh menggunakan kondisi sederhana di if statement, seperti hanya menggunakan perbandingan ==.
         // Switch adalah statement percabangan yang sama dengan if, namun lebih sederhana cara pembuatannya,
-        // Kondisi di swirch statement hanya untuk perbandingan "==".
+        // Kondisi di switch statement hanya untuk perbandingan "==".
 
         // Contoh Penggunaan Switch Statemennt
         var nilai = "A";
@@ -63,7 +63,7 @@ public class Switch_Statement {
 
 
         var nilaiDenganYield = "A";
-        String ucapanDenganYield = switch (nilaiDenganYield){                               // Contoh switch dengan menggunakan yield.
+        String ucapanDenganYield = switch (nilaiDenganYield){                               // Contoh switch dengan menggunakan yield. Penggunaan yield mirip seperti return yang digunakan untuk mengembalikan value.
             case "A":                                                                       // Tetap Semangat !
                 yield "Anda Lulus Dengan Hasil yang Sangan Baik";
             case "B":
