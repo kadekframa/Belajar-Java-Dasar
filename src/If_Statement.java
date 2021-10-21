@@ -6,7 +6,7 @@ public class If_Statement {
         // Hampir di semua bahasa pemrograman mendukung if expression.
 
         // Contoh penggunaan if statement di Java.
-        var nilai = 70;
+        var nilai = 840;
         var absen = 90;
 
         if (nilai >= 75 && absen >= 75){
