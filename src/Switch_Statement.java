@@ -22,5 +22,21 @@ public class Switch_Statement {
                 System.out.println("Tetap Semangat Meraih Impian !!!, Pantang Menyerah !!!");
         }
 
+
+
+        // Switch Lambda.
+        // Di Java versi 14, diperkenalkan switch expression dengan lambda.
+        // Ini lebih mempermudah saat penggunaan switch expression karena kita tidak perlu lagi menggunakan kata kunci break.
+
+        // Contoh Penggunaan switch lambda.
+        var nilaiNya = "E";
+
+        switch (nilaiNya){
+            case "A" -> System.out.println("Wow, Tetap Semangat!, Anda Lulus dengan baik.");        // penggunaan switch lambda lebih simple dan mudah digunakan.
+            case "B", "C" -> System.out.println("Tetap Semangat!, Anda Lulus dengan cukup baik.");  // switch lambda ini hanya ada di Java versi 14 keatas.
+            case "D" -> System.out.println("Tetap Semangat!, Pantang Menyerah");                    // Tetap Semangat berlatih Java !!!.
+            default -> System.out.println("Pantang Menyerah, Tetap Semangat menggapai impian!!!");
+        }
+
     }
 }
