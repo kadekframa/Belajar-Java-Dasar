@@ -29,6 +29,8 @@ public class Switch_Statement {
         // Ini lebih mempermudah saat penggunaan switch expression karena kita tidak perlu lagi menggunakan kata kunci break.
 
         // Contoh Penggunaan switch lambda.
+        System.out.println("");
+        System.out.println("Penggunaan switch lambda");
         var nilaiNya = "E";
 
         switch (nilaiNya){
@@ -37,6 +39,46 @@ public class Switch_Statement {
             case "D" -> System.out.println("Tetap Semangat!, Pantang Menyerah");                    // Tetap Semangat berlatih Java !!!.
             default -> System.out.println("Pantang Menyerah, Tetap Semangat menggapai impian!!!");
         }
+
+
+
+        // Kata kunci yield.
+        // Di Java 14, ada kata kunci baru yaitu yield, dimana kita menggunakan kata kunci yield untuk mengembalikan nilai pada switch statement.
+        // Ini sangat mempermudah kita ketika butuh membuat data berdasarkan kondisi switch statement.
+
+        // Contoh penggunaan yield.
+
+        var nilaiTanpaYield = "A";
+        String ucapan;
+
+        switch (nilaiTanpaYield){                                                            // Contoh switch statement tanpa yield.
+            case "A" -> ucapan = "Wow, Tetap Semangat!, Anda Lulus dengan baik.";
+            case "B", "C" -> ucapan = "Tetap Semangat!, Anda Lulus dengan cukup baik.";
+            case "D" -> ucapan = "Tetap Semangat!, Pantang Menyerah";
+            default -> ucapan = "Pantang Menyerah, Tetap Semangat menggapai impian!!!";
+        }
+        System.out.println("");
+        System.out.println("Penggunaan yield pada switch statement");
+        System.out.println(ucapan);
+
+
+        var nilaiDenganYield = "A";
+        String ucapanDenganYield = switch (nilaiDenganYield){                               // Contoh switch dengan menggunakan yield.
+            case "A":                                                                       // Tetap Semangat !
+                yield "Anda Lulus Dengan Hasil yang Sangan Baik";
+            case "B":
+                yield "Anda lulus dengan hasil yang baik yaa, Tetap Semangat!";
+            case "C":
+                yield "Anda lulus dengan hasil yang cukup baik, tetap semangat dan pantang menyerah !";
+            case "D":
+                yield "Harus Tetap Semangat yaa, Pantang menyerah !";
+            default:
+                yield "Tetap Semangat Meraih Impian";
+        };
+        System.out.println("");
+        System.out.println("Ini adalah contoh penggunaan switch statement dengan yield");
+        System.out.println(ucapanDenganYield);
+
 
     }
 }
