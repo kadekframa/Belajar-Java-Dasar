@@ -8,7 +8,14 @@ public class Method {
         // Di bahasa pemrograman lain, method juga disebut dengan function.
 
         // Contoh penggunaan method
-        
+        sayHelloWorld();
 
     }
+
+    static void sayHelloWorld(){                                // Membuat method bernama sayHelloWorld();
+        System.out.println("Hello World 1, Tetap Semangat!");
+        System.out.println("Hello World 2, Tetap Semangat!");
+        System.out.println("Hello World 3, Tetap Semangat!");
+    }
+
 }
