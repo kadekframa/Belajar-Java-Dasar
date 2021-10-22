@@ -8,6 +8,11 @@ public class Method_Parameter {
         // Parameter bisa lebih dari satu, jika lebih dari satu, harus dipisah menggunakan tanda koma.
 
         // Contoh penggunaan method parameter di Java.
-
+        sayHelloWorld("Kadek", "Frama");                // Memanggil method dengan berisikan value dari parameternya. Tetap Semangat Berlatih Java!!!
     }
+
+    static void sayHelloWorld(String firstName, String middleName){         // Membuat method atau function sayHelloWorld() berisikan parameter firstName dan middleName.
+        System.out.println("Hello " + firstName + " " + middleName);
+    }
+
 }
