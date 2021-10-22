@@ -12,10 +12,10 @@ public class Method_Return_Value {
         var c = sum(a, b);
 
         System.out.println("Contoh penggunaan method return value di Java");
-        System.out.println("Hasil penjumlahan method sum = " + sum(200, 340));
+        System.out.println("Hasil penjumlahan method sum = " + sum(200, 340));              // memanggil method sum() dengan dua value parameter.
 
         System.out.println("");
-        System.out.println("Hasil Perhitungan dari method hitung adalah : " + hitung(100, "/", 25));
+        System.out.println("Hasil Perhitungan dari method hitung adalah : " + hitung(100, "/", 25));    // memanggil method hitung() yang berisikan tidak value parameter.
 
     }
 
