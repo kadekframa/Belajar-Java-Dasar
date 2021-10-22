@@ -12,13 +12,34 @@ public class Method_Return_Value {
         var c = sum(a, b);
 
         System.out.println("Contoh penggunaan method return value di Java");
-        System.out.println("Hasil penjumlahan = " + sum(200, 340));
+        System.out.println("Hasil penjumlahan method sum = " + sum(200, 340));
+
+        System.out.println("");
+        System.out.println("Hasil Perhitungan dari method hitung adalah : " + hitung(100, "/", 25));
 
     }
 
-    static int sum(int value1, int value2){
+    static int sum(int value1, int value2){                             // membuat method sum() yang berisikan dua parameter.
         var total = value1 + value2;
         return total;
+    }
+
+    static int hitung(int valueSatu, String operasi, int valueDua){     // membuat method hitung() yang berisikan tiga parameter.
+        switch (operasi){
+            case "+":
+                return valueSatu + valueDua;
+            case "-":
+                return valueSatu - valueDua;
+            case "*":
+                return valueSatu * valueDua;
+            case "/":
+                return valueSatu / valueDua;
+            case "%":
+                return valueSatu % valueDua;
+            default:
+                return 0;
+        }
+
     }
 
 }
