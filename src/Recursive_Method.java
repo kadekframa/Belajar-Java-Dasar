@@ -31,4 +31,7 @@ public class Recursive_Method {
         }
     }
 
+
+    // NB: Hati-hati dalam penggunaan recursive method ini, karena apabila terlalu banyak melakukan recursive akan menyebabkan error stackoverflow pada komputer. Tidak ada yang tau pasti berapa banyak recursive method dapat dilakukan, itu tergantung dari daya penyimpanan di komputer kita.
+
 }
