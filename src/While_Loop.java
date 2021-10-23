@@ -1,4 +1,4 @@
-public class While_Lop {
+public class While_Loop {
     public static void main(String[] args) {
         // While Loop di Java.
         // While loop adalah versi perulangan yang lebih sederhana dibanding for loop.
